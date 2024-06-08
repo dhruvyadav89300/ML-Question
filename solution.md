@@ -1,7 +1,7 @@
 ## Solution
 Task: Create a rudimentary Question Answering system that can answer questions related to the Israel Hamas war.
 
-- I used **Llama3-70 Billion parameters variant** using Groq inference (free for all).
+- I used **mixtral-8x7b-32768** due to it's bigger context size using Groq inference for faster responses(free for all).
 - I used **OpenAI embeddings**.
 - Utilized **Streamlit** for the user interface (UI).
 - Employed **LangChain** to interact with the LLM.
