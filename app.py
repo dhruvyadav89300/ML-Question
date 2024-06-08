@@ -20,7 +20,7 @@ groq_api_key = os.environ["GROQ_API_KEY"]
 
 # Initializing the LLM
 llm = ChatGroq(api_key=groq_api_key,
-               model_name = "llama3-70b-8192")
+               model_name = "mixtral-8x7b-32768")
 
 # Loading the cleaned data
 article = "/Users/dhruvyadav/Desktop/Assesments/ML-Question/cleaned_data.json"
