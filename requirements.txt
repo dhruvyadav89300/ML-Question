@@ -1,0 +1,12 @@
+langchain
+langchain-community
+python-dotenv
+langchain_core
+streamlit
+faiss-cpu
+groq
+openai
+langchain-groq
+langchain_openai 
+jq
+langchain-objectbox
